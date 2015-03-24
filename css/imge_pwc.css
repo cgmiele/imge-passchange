@@ -1,0 +1,20 @@
+#imge_pwc-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 3000000; }
+  #imge_pwc-overlay .imge_pwc-alert {
+    max-width: 200px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    background: #FCFCFC;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    text-align: center; }
+    #imge_pwc-overlay .imge_pwc-alert .imge_pwc-desc {
+      padding-bottom: 20px; }
